@@ -1,0 +1,74 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <div class="panel-title">Add New Book</div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-horizontal" role="form" name="form">
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">
+                            Book Name：
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" placeholder="Enter book name" ng-model="book.name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">
+                            Type：
+                        </label>
+                        <div class="col-md-10">
+                            <select class="form-control" ng-model="book.type">
+                                <option value="">Select Type</option>
+                                <option>Computer Science</option>
+                                <option>Financial Science</option>
+                                <option>Philosophy Science</option>
+                                <option>Electrical Engineering</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">
+                            Publish Date：
+                        </label>
+                        <div class="col-md-10">
+                            <input type="date" class="form-control" placeholder="YYYY-mm-dd" ng-model="book.pubTime">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">
+                            Author：
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" placeholder="At most 16 characters" ng-model="book.author">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">
+                            Has eBook：
+                        </label>
+                        <div class="col-md-10">
+                            <input type="checkbox" ng-model="book.eBook">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">
+                            Price：
+                        </label>
+                        <div class="col-md-10">
+                            <input type="number" placeholder="$00.00" ng-model="book.price">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <a ui-sref="booklist" class="btn btn-success" ng-disabled="form.$invalid">Save</a>
+                            <a ui-sref="booklist({bookType:0})" class="btn btn-primary">Cancel</a>
+                            <button class="btn btn-default" ng-click="clearFormData()">Clear</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

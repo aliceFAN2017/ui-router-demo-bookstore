@@ -1,0 +1,56 @@
+[{
+    "bookId":"1",
+    "index": "1",
+    "name": "AngularJS by Example",
+    "author": "Chandermani",
+    "pubTime": "2015-03-10",
+    "price": "39.99",
+    "image": "../image/angularByExample.jpg",
+    "type": "Computer Science",
+    "eBook": "Yes",
+    "link": "https://www.amazon.com/AngularJS-Example-Chandermani/dp/1783553812#reader_1783553812"
+}, {
+    "bookId":"2",
+    "index": "2",
+    "name": "Expert Angular",
+    "author": "Mathieu Nayrolles",
+    "pubTime": "2017-07-31",
+    "price": "47.86",
+    "image": "../image/expertAngular.jpg",
+    "type": "Computer Science",
+    "eBook": "No",
+    "link": "https://www.packtpub.com/web-development/expert-angular"
+}, {
+    "bookId":"3",
+    "index": "3",
+    "name": "AngularJS 2: A Simple Guide on Web App Development",
+    "author": "Daniel Green",
+    "pubTime": "2015-12-10",
+    "price": "10.00",
+    "image": "../image/angularJS2.jpg",
+    "type": "Computer Science",
+    "eBook": "Yes",
+    "link": "https://www.amazon.com/AngularJS-Simple-Guide-Web-Development/dp/1519773145"
+}, {
+    "bookId":"4",
+    "index": "4",
+    "name": "Angular 2 Components",
+    "author": "Nir Kaufman",
+    "pubTime": "2016-11-30",
+    "price": "29.99",
+    "image": "../image/angular2Components.jpg",
+    "type": "Computer Science",
+    "eBook": "No",
+    "link": "https://www.amazon.com/AngularJS-Simple-Guide-Web-Development/dp/1519773145"
+}, {
+    "bookId":"5",
+    "index": "5",
+    "name": "Angular 2 Development with TypeScript",
+    "author": "Yakov Fain",
+    "pubTime": "2014-01-01",
+    "price": "19.18",
+    "image": "../image/angularTypescript.jpg",
+    "type": "Computer Science",
+    "eBook": "Yes",
+    "link": "https://www.manning.com/books/angular-development-with-typescript-second-edition"
+}]

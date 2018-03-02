@@ -1,0 +1,46 @@
+[{
+    "bookId":"1",
+    "index": "1",
+    "name": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "pubTime": "2015-03-10",
+    "price": "4.80",
+    "image": "../image/richDadPoorDad.jpg",
+    "type": "Financial Science",
+    "eBook": "Yes",
+    "link": "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle-ebook/dp/B0175P82RA"
+}, {
+    "bookId":"2",
+    "index": "2",
+    "name": "Think And Grow Rich",
+    "author": "Napoleon Hill",
+    "pubTime": "2017-07-31",
+    "price": "8.86",
+    "image": "../image/thinkAndGrowRich.jpg",
+    "type": "Financial Science",
+    "eBook": "YES",
+    "link": "https://www.amazon.com/Think-Grow-Rich-Napoleon-Hill-ebook/dp/B0743FCV3W/ref=pd_sim_351_3?_encoding=UTF8&psc=1&refRID=41YN1SHDTKK4SWQWDN7X"
+},
+{
+    "bookId":"3",
+    "index": "3",
+    "name": "The Science of Getting Rich",
+    "author": "Wallace D. Wattles",
+    "pubTime": "2015-03-10",
+    "price": "4.99",
+    "image": "../image/gettingRich.jpg",
+    "type": "Financial Science",
+    "eBook": "Yes",
+    "link": "https://www.amazon.com/Science-Getting-Rich-Wallace-Wattles-ebook/dp/B06XPVC236/ref=pd_sim_351_4?_encoding=UTF8&psc=1&refRID=T98WH8EPNF06414MWDMV"
+}, {
+    "bookId":"4",
+    "index": "4",
+    "name": "Think And Grow Rich",
+    "author": "James Allen",
+    "pubTime": "2017-07-31",
+    "price": "2.86",
+    "image": "../image/manThinketh.jpg",
+    "type": "Financial Science",
+    "eBook": "YES",
+    "link": "https://www.amazon.com/As-Man-Thinketh-James-Allen-ebook/dp/B001C33UZG/ref=pd_sim_351_5?_encoding=UTF8&psc=1&refRID=MJW5V2VDB5TYMJ5TBJQJ"
+}]
